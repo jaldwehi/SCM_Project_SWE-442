@@ -16,9 +16,8 @@ public class TestingProject {
       double BMI = getBMI(weight, height);
       System.out.println(BMI);
       System.out.println(getStusts(BMI));
-
-      System.out.println("Thanks for using our BMI App!");
-
+      printIdealWeightRange( height);
+      System.out.println("Thanks for using our BMI App! We hope you enjoyed using the BMI Calculator!");
 
     }
     
@@ -56,5 +55,11 @@ public class TestingProject {
           }
       return null;
       }
-       
+    
+   
+   public static void printIdealWeightRange(double height) {
+    double minWeight = 18.5 * height * height;
+    double maxWeight = 25 * height * height;
+    System.out.printf("For your height, a healthy weight is between %.1f kg and %.1f kg.%n", minWeight, maxWeight);
+    } 
 }
