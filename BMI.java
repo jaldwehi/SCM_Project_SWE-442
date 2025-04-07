@@ -17,7 +17,7 @@ public class TestingProject {
       System.out.println(BMI);
       System.out.println(getStusts(BMI));
       printIdealWeightRange( height);
-      System.out.println("We hope you enjoyed using the BMI Calculator!");
+      System.out.println("Thanks for using our BMI App! We hope you enjoyed using the BMI Calculator!");
 
     }
     
