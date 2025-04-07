@@ -17,7 +17,8 @@ public class TestingProject {
       System.out.println(BMI);
       System.out.println(getStusts(BMI));
 
-      System.out.println("Thank you for using the BMI Calculator!");
+      System.out.println("Thanks for using our BMI App!");
+
 
     }
     
