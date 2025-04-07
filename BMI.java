@@ -16,7 +16,9 @@ public class TestingProject {
       double BMI = getBMI(weight, height);
       System.out.println(BMI);
       System.out.println(getStusts(BMI));
-      
+
+      System.out.println("Thank you for using the BMI Calculator!");
+
     }
     
     // get BMI function
